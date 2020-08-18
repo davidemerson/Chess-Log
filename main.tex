@@ -1,0 +1,56 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage{skak}
+\usepackage{xltxtra}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{float}
+\pagestyle{empty}
+\geometry{left=20mm,top=20mm,right=20mm,bottom=20mm}
+\setmainfont
+    [
+        Path = fonts/,
+        UprightFont = Paratype_Futura_PT_Book.otf,
+        ItalicFont = Paratype_Futura_PT_Book_Oblique.otf,
+        BoldFont = Paratype_Futura_PT_Heavy.ttf,
+        BoldItalicFont = Paratype_Futura_PT_Heavy_Oblique.ttf,
+    ]
+    {paratype-futura}
+% https://www.overleaf.com/learn/latex/chess_notation <<< tutorial
+\begin{document}
+\section*{August 15, 2020}
+\begin{multicols*}{3}
+\newgame
+%%%%
+\begin{figure}[H]
+\mainline{1.d4 Nf6}\\
+\scalebox{.8}{\showboard}
+\end{figure}
+%%%%
+\begin{figure}[H]
+\mainline{2.c4 e6}\\
+\scalebox{.8}{\showboard}
+\end{figure}
+%%%%
+\begin{figure}[H]
+\mainline{3.Nc3 Bb4}\\
+\scalebox{.8}{\showboard}
+\end{figure}
+%%%%
+\begin{figure}[H]
+\mainline{4.f3 d5}\\
+\scalebox{.8}{\showboard}
+\end{figure}
+%%%%
+\begin{figure}[H]
+\mainline{5.a3 Bxc3+}\\
+\scalebox{.8}{\showboard}
+\end{figure}
+%%%%
+\begin{figure}[H]
+\mainline{6.b2xc3}\\
+\scalebox{.8}{\showboard}
+\end{figure}
+%%%%
+\end{multicols*}
+\end{document}
