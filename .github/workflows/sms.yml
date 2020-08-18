@@ -3,6 +3,8 @@ on:
     branches: [ master ]
 jobs:
  sms:
+   needs: build
+   runs-on: ubuntu-latest
    steps:
      - name: 'Sending SMS Notification'
        uses: twilio-labs/actions-sms@v1
