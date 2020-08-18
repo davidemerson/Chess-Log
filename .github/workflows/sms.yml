@@ -1,7 +1,7 @@
 on:
   push:
     branches: [ master ]
-- name: Twilio SMS
+name: Twilio SMS
   uses: twilio-labs/actions-sms@v1
   with:
     # Phone number in your Twilio account to send the SMS from
