@@ -1,6 +1,3 @@
-on:
-  push:
-    branches: [ master ]
 name: Twilio SMS
   uses: twilio-labs/actions-sms@v1
   with:
