@@ -1,15 +1,15 @@
-name: Twilio SMS
-  uses: twilio-labs/actions-sms@v1
-  with:
-    # Phone number in your Twilio account to send the SMS from
-    fromPhoneNumber: +13125358445
-    # Phone number to send the SMS to
-    toPhoneNumber: +184733409377
-    # The message you want to send
-    message: 'new move!'
-    # A Twilio Account SID. Can alternatively be stored in environment
-    TWILIO_ACCOUNT_SID: AC0620fe0b7f573ed2be810ed141cd11ea
-    # A Twilio API Key. Can alternatively be stored in environment
-    TWILIO_API_KEY: SK2c77a9111720ff9ea8a49f605057e91e
-    # A Twilio API Secret. Can alternatively be stored in environment
-    TWILIO_API_SECRET: 0JuaE39kR4pmUSzMBeTbBuAhJf35WzCR
+- name: Twilio SMS
+    uses: twilio-labs/actions-sms@v1
+    with:
+      # Phone number in your Twilio account to send the SMS from
+      fromPhoneNumber: +13125358445
+      # Phone number to send the SMS to
+      toPhoneNumber: +184733409377
+      # The message you want to send
+      message: 'new move!'
+      # A Twilio Account SID. Can alternatively be stored in environment
+      TWILIO_ACCOUNT_SID: AC0620fe0b7f573ed2be810ed141cd11ea
+      # A Twilio API Key. Can alternatively be stored in environment
+      TWILIO_API_KEY: SK2c77a9111720ff9ea8a49f605057e91e
+      # A Twilio API Secret. Can alternatively be stored in environment
+      TWILIO_API_SECRET: 0JuaE39kR4pmUSzMBeTbBuAhJf35WzCR
